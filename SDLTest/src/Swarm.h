@@ -28,6 +28,9 @@ class Swarm {
 
 		// the first const make each particle constant, and the second makes the pointer constant
 		const Particle* const getParticles();
+
+		int retInt();
+		int retInt(bool);
 	};
 
 } /* namespace fpg */
